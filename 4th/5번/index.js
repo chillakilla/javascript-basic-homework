@@ -6,9 +6,11 @@ async function products() {
   console.log(data);
 }
 
-// fetch('https://dummyjson.com/products')
-// .then(res => res.json())
-// .then(console.log);
+products();
+
+// fetch("https://dummyjson.com/products")
+//   .then((res) => res.json())
+//   .then(console.log);
 
 // 여기에 2번 문제의 답을 작성하세요.
 
@@ -32,13 +34,13 @@ const getPost = async () => {
 
 getPost();
 
-// fetch('https://dummyjson.com/products/add', {
-//   method: 'POST',
-//   headers: { 'Content-Type': 'application/json' },
+// fetch("https://dummyjson.com/products/add", {
+//   method: "POST",
+//   headers: { "Content-Type": "application/json" },
 //   body: JSON.stringify({
-//     title: 'BMW Pencil',
+//     title: "BMW Pencil",
 //     /* other product data */
-//   })
+//   }),
 // })
-// .then(res => res.json())
-// .then(console.log);
+//   .then((res) => res.json())
+//   .then(console.log);
